@@ -6,7 +6,7 @@ public class Statistics
 {	
 	public static void main(String[] args)
 	{	
-		Locale.setDefault(new Locale("en", "US"));
+		Locale.setDefault(Locale.ENGLISH);
 		ArrayList<Operation> ops = Util.loadOps();
 		Scanner in = new Scanner(System.in);
 
